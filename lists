@@ -1,0 +1,29 @@
+from random import randint
+file = open("Names.txt",'r')
+
+name_arr = []
+num_arr = []
+
+for lines in file:
+   nums = lines.strip().split("\t")
+   num_arr+=[nums[0]]
+   name_arr+=[nums[1]]
+   
+#print(num_arr)
+#print(len(name_arr))
+
+inserted = set()
+lists = []
+
+for i in range(0,17):
+   sub_list = []
+   while len(sub_list) < 10:
+      num = randint(0,169)
+      if num not in inserted:
+         sub_list.append(name_arr[num])
+         inserted.add(num)
+   lists.append(sub_list)
+   
+
+print(*lists, sep='\n')
+
