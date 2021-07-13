@@ -80,6 +80,7 @@ h1{
 .article-content{
     background:inherit;
     width : 100%;
+    background:rgba(0,0,0,.5);
     
 }
 
@@ -123,4 +124,27 @@ iframe{
 #video p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#000;
+}
+#article h3{
+    color:#f9fa9c;
+}
+
+#article p{
+    font-size: 14px;
+    font-weight: bold;
+    color:#fff;
+}
+figure {
+    display:grid;
+    border: 1px solid #fff;
+    margin: 1px; 
+    align-self: relative;
+}
+figure img {
+    vertical-align: bottom;
+}
+figure figcaption {
+    color:#ffffff;
+    border: 1px dotted #fff;
+    text-align:center;
 }
