@@ -33,7 +33,7 @@ h1{
     text-align: center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 650px;
+    min-height: 50vh;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -70,8 +70,10 @@ h1{
     
 }
 .box h2{
-    color:#0000bf;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#55ffee;
+    font-family: 'Amatic SC';
+    font-weight:900;
+    font-size: 75px
 
 }
 
@@ -92,8 +94,8 @@ iframe{
 
 .video-intro{
     position: relative;
-    max-width: 1000px;
-    max-height: 600px;
+    max-width: 80vw;
+    max-height: fit-content;
     margin-top: 100px;
     align-items: center;
     padding:50px;
@@ -102,8 +104,8 @@ iframe{
 }
 .poster-intro{
     position: relative;
-    max-width: 1085px;
-    max-height: 600px;
+    max-width: 60vw;
+    max-height: 40vh;
     margin-top: 100px;
     align-items: center;
     padding:50px;
