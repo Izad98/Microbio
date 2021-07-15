@@ -21,7 +21,10 @@
     background-size:cover;
 }
 
-
+.logo{
+    position:relative;
+    margin:10px auto;
+}
 h1{
     margin-top: 0px;
     padding-top: 120px;
@@ -70,7 +73,7 @@ h1{
     
 }
 .box h2{
-    color:#55ffee;
+    color:maroon;
     font-family: 'Amatic SC';
     font-weight:900;
     font-size: 75px
