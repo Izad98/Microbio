@@ -24,8 +24,6 @@ var windowsHeight = $(window).height();
 
   $('#headerwrap').backstretch([
         "images/bg1.jpg"
-      , "images/bg2.jpg"
-      , "images/bg3.jpg"
       , "images/Virus.png"
       , "images/covid.jpg"
       , "images/ocean.jpg"
