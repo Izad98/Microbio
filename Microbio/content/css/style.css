@@ -84,14 +84,14 @@ h1{
 .article-content{
     background:inherit;
     width : 100%;
-    background:rgba(0,0,0,.5);
+    background:rgba(255,255,255,.5);
     
 }
 
 iframe{
     border:none;
     background: inherit;
-    background:rgba(255,255,255,0);
+    background:rgba(0,0,0,0);
     margin: 0 auto;
     width: 100%;
     height: 1000px;
@@ -136,7 +136,7 @@ iframe{
 #article p{
     font-size: 14px;
     font-weight: bold;
-    color:#fff;
+    color:#000;
 }
 figure {
     display:grid;
