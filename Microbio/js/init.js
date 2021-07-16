@@ -26,7 +26,7 @@ var windowsHeight = $(window).height();
         "images/bg1.jpg"
       , "images/Virus.png"
       , "images/covid.jpg"
-      , "images/ocean.jpg"
+      , "images/bg2.jpg"    
     ], {duration: 3000, fade: 750});
 
 jQuery(document).ready(function(){
