@@ -155,7 +155,7 @@ figure img {
     vertical-align: bottom;
 }
 figure figcaption {
-    color:#ffffff;
-    border: 1px dotted #fff;
+    color:#000;
+    border: 1px dotted #000;
     text-align:center;
 }
