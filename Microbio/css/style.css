@@ -957,6 +957,12 @@ a:after {
     color: #dadada;
     font-size: 11px;
 }
+.h5{
+	color:#fff
+}
+.h6{
+	color:#fff
+}
 
 .blog-content {
     padding-top: 10px;
@@ -2170,9 +2176,4 @@ img.mfp-img {
     padding-top: 0;
 }
 
-.h5{
-	color:#fff
-}
-.h6{
-	color:#fff
-}
+
