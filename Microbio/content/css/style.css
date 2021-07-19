@@ -140,11 +140,17 @@ iframe{
     padding: 15px;
 }
 figure {
-    display:grid;
+    float: left;
+    margin: 10px 10px 10px 0;
     border: 1px solid #fff;
     margin: 1px; 
-    align-self: relative;
 }
+
+.textwrap{
+    float: left;
+    margin:10px;
+}
+
 figure img {
     vertical-align: bottom;
 }
