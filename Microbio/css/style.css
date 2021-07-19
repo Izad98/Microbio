@@ -962,6 +962,11 @@ a:after {
     background: #fff;
 }
 
+#blog h6{
+    color:#fff;
+}
+
+
 .blog-content h2 {
     margin-top: 0;
 }
@@ -1524,6 +1529,7 @@ span.counter {
         opacity: .5;
         transform: translateZ(-500px);
     }
+    #
 
     100% {
         opacity: 1;
