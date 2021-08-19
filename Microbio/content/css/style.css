@@ -159,3 +159,7 @@ figure figcaption {
     border: 1px dotted #000;
     text-align:center;
 }
+#content-list h4{
+    text-align:center;
+    color:#fff;
+}
