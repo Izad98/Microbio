@@ -15,7 +15,7 @@
 }
 
 #article{
-    background:url("../images/astro.png") no-repeat center center fixed;
+    background:url("../images/bgArticle.JPG") no-repeat center center fixed;
     -webkit-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
@@ -71,6 +71,7 @@ h1{
     padding:50px;
     background:rgba(255,255,255,.5);
     box-shadow: 0 5px 15px rgba(122, 122, 122, 0.75);
+    border-radius:10px;
     
 }
 .box h2{
@@ -85,17 +86,13 @@ h1{
     background:inherit;
     width : 100%;
     background:rgba(255,255,255,.75);
-    
+    margin-top:-15px;
+    text-align:justify;
+    padding:5px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
 }
 
-iframe{
-    border:none;
-    background: inherit;
-    background:rgba(0,0,0,0.2);
-    margin: 0 auto;
-    width: 100%;
-    height: 1000px;
-}
 
 .video-intro{
     position: relative;
@@ -137,9 +134,23 @@ iframe{
     font-size: 20px;
     font-weight: bold;
     color:#000;
-    padding: 15px;
+    padding: 2px;
 }
-figure {
+#figure01 {
+    float: right;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #fff;
+    margin: 1px; 
+}
+
+#figure02 {
+    float: center;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #fff;
+    margin: 1px; 
+    padding-left:10vw;
+}
+#figure03 {
     float: left;
     margin: 10px 10px 10px 0;
     border: 1px solid #fff;
@@ -151,15 +162,56 @@ figure {
     margin:10px;
 }
 
-figure img {
+figure01 img {
     vertical-align: bottom;
+
 }
-figure figcaption {
+
+figure02 img {
+    vertical-align: bottom;
+    align-items:center;
+
+}
+
+figure01 figcaption {
+    color:#000;
+    border: 1px dotted #000;
+    text-align:center;
+    
+}
+figure02 figcaption {
     color:#000;
     border: 1px dotted #000;
     text-align:center;
 }
-#content-list h4{
-    text-align:center;
+
+figure03 figcaption {
     color:#000;
+    border: 1px dotted #000;
+    text-align:center;
+    
+}
+
+#content-list h4{
+    text-align:left;
+    color:rgb(155, 142, 142);
+    padding-top:20px;
+}
+#section01{
+    padding-top:55px;
+}
+#section02{
+    padding-top:55px;
+}
+#img-credits {
+    list-style-type: none;
+    color:#000;
+    font-size:16px;
+    font-weight:bold;
+}
+#ref{
+    color:#000;
+    font-size:16px;
+    font-weight:bold;
+}
 }
