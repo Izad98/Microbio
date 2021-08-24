@@ -134,7 +134,9 @@ h1{
     font-size: 20px;
     font-weight: bold;
     color:#000;
-    padding: 2px;
+    padding: 5px;
+    padding-left:10px;
+    padding-right:10px;
 }
 #figure01 {
     float: right;
@@ -199,9 +201,13 @@ figure03 figcaption {
 }
 #section01{
     padding-top:55px;
+    padding-left:10px;
+    padding-right:10px;
 }
 #section02{
-    padding-top:55px;
+    padding-top:55px;\
+    padding-left:10px;
+    padding-right:10px;
 }
 #img-credits {
     list-style-type: none;
