@@ -107,8 +107,8 @@ h1{
 .poster-intro{
     position: relative;
     max-width: 60vw;
-    max-height: 40vh;
-    margin-top: 100px;
+    max-height: 30vh;
+    margin-top: 80px;
     align-items: center;
     padding:50px;
     background:rgba(25,25,25,.25);
