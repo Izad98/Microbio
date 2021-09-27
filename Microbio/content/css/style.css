@@ -219,4 +219,30 @@ figure03 figcaption {
     font-size:16px;
     font-weight:bold;
 }
-}
+	.dropdown-one {
+			cursor: pointer;
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			}
+			
+		.dropdown-two {
+			cursor: pointer;
+			display: none;
+			position: absolute;
+			left: 160px;
+			top: 0px;
+			min-width: 160px;
+			background-color: #f9f9f9;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			}
+
+		.dropdown:hover .dropdown-one, #link1:hover > .dropdown-two {
+  			display: block;
+			}
+
+		.dropdown-one .dItem:hover, .dropdown-two a:hover {
+    		background-color: #ddd;
+			}
