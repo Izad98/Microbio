@@ -219,7 +219,7 @@ figure03 figcaption {
     font-size:16px;
     font-weight:bold;
 }
-	.dropdown-one {
+.dropdown-one {
 			cursor: pointer;
 			display: none;
 			position: absolute;
@@ -246,3 +246,7 @@ figure03 figcaption {
 		.dropdown-one .dItem:hover, .dropdown-two a:hover {
     		background-color: #ddd;
 			}
+#link1{
+	color:#000;
+}
+
