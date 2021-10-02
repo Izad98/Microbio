@@ -21,6 +21,27 @@
     background-size:cover;
 }
 
+#article1{
+    background:url("../images/recycle.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+#article2{
+    background:url("../images/bgart2.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+#article3{
+    background:url("../images/Bio-reactor.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
 .logo{
     position:relative;
     margin:10px 10px 10px 10px;
@@ -51,6 +72,11 @@ h1{
 }
 
 .navbar-article{
+   color: #fff;
+    
+}
+
+.navbar-article1{
    color: #fff;
     
 }
@@ -93,6 +119,38 @@ h1{
     border-bottom-right-radius:20px;
 }
 
+.article1-content{
+    background:inherit;
+    width : 100%;
+    background:rgba(255,255,255,.75);
+    margin-top:-15px;
+    text-align:justify;
+    padding:5px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+.article2-content{
+    background:inherit;
+    width : 100%;
+    background:rgba(255,255,255,.75);
+    margin-top:-15px;
+    text-align:justify;
+    padding:5px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+.article3-content{
+    background:inherit;
+    width : 100%;
+    background:rgba(255,255,255,.75);
+    margin-top:-15px;
+    text-align:justify;
+    padding:5px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
 
 .video-intro{
     position: relative;
@@ -107,10 +165,10 @@ h1{
 .poster-intro{
     position: relative;
     max-width: 60vw;
-    max-height: 30vh;
-    margin-top: 80px;
+    max-height: 40vh;
+    margin-top: 100px;
     align-items: center;
-    padding:10px;
+    padding:50px;
     background:rgba(25,25,25,.25);
     box-shadow: 0 5px 15px rgba(56, 54, 54, 0.5);
 
@@ -130,6 +188,22 @@ h1{
     color:#911C66;
 }
 
+#article1 h3{
+    color:#911C66;
+}
+
+#article1 h2{
+    color:#77EF1D;
+}
+
+#article2 h2{
+    color:#450BB0;
+}
+
+#article3 h2{
+    color:#C70039;
+}
+
 #article p{
     font-size: 20px;
     font-weight: bold;
@@ -138,6 +212,34 @@ h1{
     padding-left:10px;
     padding-right:10px;
 }
+
+#article1 p{
+    font-size: 20px;
+    font-weight: bold;
+    color:#000;
+    padding: 5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#article2 p{
+    font-size: 20px;
+    font-weight: bold;
+    color:#000;
+    padding: 5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#article3 p{
+    font-size: 20px;
+    font-weight: bold;
+    color:#000;
+    padding: 5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
 #figure01 {
     float: right;
     margin: 10px 10px 10px 0;
@@ -151,8 +253,45 @@ h1{
     border: 1px solid #fff;
     margin: 1px; 
 }
+
+#figure1 {
+    float: center;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #fff;
+    margin: 1px; 
+}
+
+
 #figure03 {
     float: left;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #fff;
+    margin: 1px; 
+}
+
+#fig1 {
+    float: center;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #fff;
+    margin: 1px; 
+}
+
+#fig2 {
+    float: center;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #fff;
+    margin: 1px; 
+}
+
+#fig3 {
+    float: center;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #fff;
+    margin: 1px; 
+}
+
+#fig4 {
+    float: center;
     margin: 10px 10px 10px 0;
     border: 1px solid #fff;
     margin: 1px; 
@@ -204,7 +343,7 @@ figure03 figcaption {
     padding-right:10px;
 }
 #section02{
-    padding-top:55px;\
+    padding-top:55px;
     padding-left:10px;
     padding-right:10px;
 }
@@ -219,35 +358,4 @@ figure03 figcaption {
     font-size:16px;
     font-weight:bold;
 }
-.dropdown-one {
-			cursor: pointer;
-			display: none;
-			position: absolute;
-			background-color: #f9f9f9;
-			min-width: 160px;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			}
-			
-		.dropdown-two {
-			cursor: pointer;
-			display: none;
-			position: absolute;
-			left: 160px;
-			top: 0px;
-			min-width: 160px;
-			background-color: #f9f9f9;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			}
-
-		.dropdown:hover .dropdown-one, #link1:hover > .dropdown-two {
-  			display: block;
-			}
-
-		.dropdown-one .dItem:hover, .dropdown-two a:hover {
-    		background-color: #ddd;
-			}
-#link1{
-	color:#000;
-	
 }
-
