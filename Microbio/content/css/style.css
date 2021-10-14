@@ -408,4 +408,7 @@ figure03 figcaption {
   float: left;
   color: #000;
 }
-
+.space{
+    height:50px;
+    width:auto;
+}
