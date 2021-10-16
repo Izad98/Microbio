@@ -155,16 +155,24 @@ h1{
     border-bottom-right-radius:20px;
 }
 
+
+
 .video-intro{
     position: relative;
     max-width: 80vw;
     max-height: fit-content;
     margin-top: 100px;
     align-items: center;
+    text-align:center;
     padding:50px;
-    background:rgba(255, 226, 226, 0.25);
+    background:rgba(204,0,0,.75);
     box-shadow: 0 5px 15px rgba(56, 54, 54, 0.5);
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
 }
+
 .poster-intro{
     position: relative;
     max-width: 60vw;
@@ -181,6 +189,20 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     color: #fff;
     z-index: 100;
+}
+
+#video h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    background-color: #000;
+    z-index: 100;
+}
+
+#video h1{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 100px;
+   color:#000;
+   padding-top:10px;
 }
 
 #video p{
