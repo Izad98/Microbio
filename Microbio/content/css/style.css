@@ -175,19 +175,49 @@ h1{
 
 .poster-intro{
     position: relative;
+    overflow: hidden;
     max-width: 60vw;
     max-height: 40vh;
     margin-top: 100px;
     align-items: center;
     padding:50px;
-    background:rgba(25,25,25,.25);
+    display: flex;
     box-shadow: 0 5px 15px rgba(56, 54, 54, 0.5);
-
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
 }
 
+.poster-intro-content{
+    position: relative;
+    
+}
+
+.poster-intro-bg{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right:0px;
+    position: absolute;
+    background: url("../images/Ocean1.jpg")no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    opacity:0.65;
+}
+
+
+
+
 #poster h2{
-    font-family: 'Courier New', Courier, monospace;
-    color: #fff;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: bold;
+    font-size:40px;
+    color: #6AEA43;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     z-index: 100;
 }
 
