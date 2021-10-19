@@ -435,5 +435,6 @@ figure03 figcaption {
     width:auto;
 }
 #covidVideo{
-    margin-left:500px;
+    align-items:center;
+    justify-items:center;
 }
